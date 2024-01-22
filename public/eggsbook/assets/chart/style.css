@@ -1,0 +1,74 @@
+
+.form-control:disabled, .form-control[readonly]{
+  background-color:#fff0;
+}
+.modal-content{
+  background: #fff;
+}
+#chart-container {
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  left: 0px;
+  height: 420px;
+  width: 100%;
+  border-radius: 5px;
+  overflow: auto;
+      margin-bottom: 90px;
+  text-align: center;
+}
+.orgchart .node .title{font-size: 14px;width: 200px;}
+.orgchart .node .content{
+  border: 1px solid #1e78a3;
+}
+.orgchart .lines .rightLine{
+  border-right: 1px solid rgb(255, 255, 255);
+}
+.orgchart .lines .leftLine{
+  border-left: 1px solid #ffffff;
+}
+.orgchart .lines .topLine{
+  border-top: 2px solid rgb(255, 255, 255);
+}
+.orgchart .lines .downLine{
+  background-color: rgb(255, 255, 255);
+}
+.orgchart .node{
+  padding:0;
+}
+.orgchart .node .leftEdge{
+  left: -10px;
+    color: #ff00c6;
+    border-radius: 5px;
+}
+.orgchart .node .bottomEdge{
+  bottom: -10px;
+    color: #ff00c6;
+    border-radius: 5px;
+}
+.orgchart .node .topEdge{
+  top: -10px;
+    color: #ff00c6;
+    border-radius: 5px;
+}
+.orgchart .node .rightEdge{
+  right: -10px;
+    color: #ff00c6;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

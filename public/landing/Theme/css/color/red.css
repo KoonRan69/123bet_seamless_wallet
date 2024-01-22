@@ -1,0 +1,137 @@
+/*#8e2a7e*/
+
+.btn.btn-slider {
+    border-color: #e53f51 !important;
+}
+
+.hr,
+.main article.shop-single .tab-box ul.nav li.active a,
+.main section.tab .tab-box ul li.active a,
+.palovit-tab ul.nav li.active a,
+html.boxed .body {
+    border-top-color: #e53f51 !important;
+}
+
+.main article.blog-post label {
+    border-left-color: #e53f51 !important;
+}
+
+.main section.personnel .item div,
+.main section.plans .item > div,
+.main section.news2 .item,
+.main section.news3 .item div,
+.main section.news4 .item div,
+.main article.services .item div,
+.main article.blog-grid .item div,
+html.boxed .body {
+    border-bottom-color: #e53f51 !important;
+}
+
+.append-icon i,
+.palovit-title ul li.active,
+footer.footer .ftop .adress li i,
+.header.standart_nav .center .info div i,
+.header.standart_nav nav > ul > li.active > a,
+.header.transparent_nav nav > ul > li.active > a,
+.header.radius_topmenu_nav nav > ul > li.active > a,
+.header.standart_nav nav > ul > li.active,
+.header.transparent_nav nav > ul > li.active,
+.header.radius_topmenu_nav nav > ul > li.active,
+.header.standart_nav nav > ul > li.open > a,
+.header.standart_nav nav > ul > li:hover > a,
+.header.transparent_nav nav > ul > li.open > a,
+.header.transparent_nav nav > ul > li:hover > a,
+.header.radius_topmenu_nav nav > ul > li.open > a,
+.header.radius_topmenu_nav nav > ul > li:hover > a,
+.grid-box .grid-box-wrapper .grid-box-title .grid-box-category,
+.header.standart_nav .top > div > div > div > div .dropdown span,
+.header.radius_topmenu_nav .top > div > div .dropdown span,
+.main section.company .item div ul li:before,
+.main section.archive2 .item div i,
+.main section.accordion .left .panel .panel-heading a i,
+.main section.accordion .right .carousel .item span,
+.main section.tab .tab-box ul li a i,
+.main section.tab .details ul li:before,
+ul.category li.active > a,
+.main article.services-detail .item div i,
+.main article.project-single table tr td i,
+.main article.project-single ul.list li:before,
+footer.footer .ftop .footer-menu li.active a,
+.main article.career strong,
+.main article.career ul li:before,
+.main article.company > ul > li:before,
+.main article.company > ul > li ul li:before,
+.palovit-accordion .panel .panel-heading a i,
+ul.recent-posts li label,
+.main article.blog-list .item div div:last-child span,
+.main article.blog-post ul.list li:before,
+.main article.shop-grid .item .grid-box .grid-box-title .grid-box-price,
+.main article.shop-single .item .grid-box .grid-box-title .grid-box-price,
+.main article.shop-cart .item .grid-box .grid-box-title .grid-box-price,
+ul.best-product li a span.price,
+.main article.shop-single .price,
+.slider2-t1,
+.main article.page-contact .adress li i,
+.br-theme-fontawesome-stars .br-widget a.br-selected:after,
+.br-theme-fontawesome-stars .br-widget a.br-active:after, .account a, .account a:hover, .post-list li:before {
+    color: #e53f51 !important;
+}
+
+    .pagetop,
+    .btn.btn-palovit,
+    .btn.btn-slider-black,
+    .btn.btn-slider:before,
+    .header.radius_topmenu_nav .rmenu > #search .dropdown,
+    .header.standart_nav nav > ul > li.active:after,
+    .header.transparent_nav nav > ul > li.active:after,
+    .header.radius_topmenu_nav nav > ul > li.active:after,
+    .main section.personnel .owl-controls .owl-pagination .active span,
+    .main section.company .owl-controls .owl-pagination .active span,
+    .main section.news2 .owl-controls .owl-pagination .active span,
+    .main section.about-carousel .owl-controls .owl-pagination .active span,
+    .header.standart_nav nav > ul > li.dropdown .dropdown-menu > li > a:focus,
+    .header.standart_nav nav > ul > li.dropdown .dropdown-menu > li > a:hover,
+    .header.standart_nav nav > ul > li.dropdown .dropdown-menu > li.active > a,
+    .header.transparent_nav nav > ul > li.dropdown .dropdown-menu > li > a:focus,
+    .header.transparent_nav nav > ul > li.dropdown .dropdown-menu > li > a:hover,
+    .header.transparent_nav nav > ul > li.dropdown .dropdown-menu > li.active > a,
+    .header.radius_topmenu_nav nav > ul > li.dropdown .dropdown-menu > li > a:focus,
+    .header.radius_topmenu_nav nav > ul > li.dropdown .dropdown-menu > li > a:hover,
+    .header.radius_topmenu_nav nav > ul > li.dropdown .dropdown-menu > li.active > a,
+    .header.standart_nav nav > ul > li.dropdown-mega .mega-sub-nav > li:hover > a,
+    .header.transparent_nav nav > ul > li.dropdown-mega .mega-sub-nav > li:hover > a,
+    .header.radius_topmenu_nav nav > ul > li.dropdown-mega .mega-sub-nav > li:hover > a,
+    .header.standart_nav nav > ul > li:hover:after,
+    .header.transparent_nav nav > ul > li:hover:after,
+    .header.radius_topmenu_nav nav > ul > li:hover:after,
+    .main section.about-progress ul li .progress .progress-bar,
+    .pagination li:hover a,
+    .pagination li.active span,
+    .pagination li.active span:hover {
+        background-color: #e53f51 !important;
+    }
+
+.main article.shop-grid .item .grid-box .grid-box-wrapper:after,
+.main article.shop-single .item .grid-box .grid-box-wrapper:after,
+.main article.shop-cart .item .grid-box .grid-box-wrapper:after,
+.box2-action-icon {
+    background-color: rgba(229, 63, 81, 0.7) !important;
+}
+
+.btn.btn-palovit:hover,
+.btn.btn-palovit:focus,
+.btn.btn-palovit:active,
+.btn.btn-palovit:focus:active,
+.btn.btn-arrow:before,
+.btn.btn-arrow:focus,
+.btn.btn-arrow:active,
+.btn.btn-arrow:focus:active{
+    background-color: #af2131 !important;
+}
+
+.pagination li:hover a,
+.pagination li.active span,
+.main section.archive .container .row div span,
+.pagination li.active span:hover, blockquote, .btn.btn-arrow {
+    border-color: #af2131 !important;
+}
