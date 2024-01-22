@@ -223,7 +223,6 @@ class UserV2Controller extends Controller
     // xoa token cu
     DB::table('oauth_access_tokens')->where('user_id', $user->User_ID)->delete();
 
-
     if ($user) {
       $user->User_Log = $now;
       $user->save();
@@ -232,17 +231,13 @@ class UserV2Controller extends Controller
     $tokenResult = $user->createToken('WINBOSS');
     $token = $tokenResult->token;
 
-
     $loginType = config('utils.action.login');
     LogUser::addLogUser($user->User_ID, $loginType['action_type'], $loginType['message'], $request->ip());
 
     $token->save();
 
     $UserID = $user->User_ID;
-    if($user->User_Name_Sbobet == NULL){
-      /****************************
-		 * đăng ký bên SBO game *
-		***************************/
+    /*if($user->User_Name_Sbobet == NULL){
       $urlSBO = $this->config['url'].'/web-root/restricted/player/register-player.aspx';
       $body = [
         "Username" => "now_123Betnow_$UserID",
@@ -272,14 +267,11 @@ class UserV2Controller extends Controller
           $user->User_Sbobet_Password = $request->password;
         }
       }
-      /*****************************
-		 * kết thúc đăng ký bên SBO game *
-		*****************************/
     }else{
       $withdrawSbo = app('App\Http\Controllers\API\SbobetController')->withdrawV2($request);
       $user->login_sbobet = 0;
     }
-
+*/
 
 
     //    if($user->User_Evo != 1){
